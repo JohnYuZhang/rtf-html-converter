@@ -1,0 +1,15 @@
+{
+  "name": "rtf-html-converter",
+  "version": "1.0.0",
+  "description": "Used to convert transcript files downloaded from google docs as RTF files to HTML files which can be hosted on a website",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js convert",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John",
+  "license": "ISC",
+  "dependencies": {
+    "@iarna/rtf-to-html": "^1.1.0"
+  }
+}
